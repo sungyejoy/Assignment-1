@@ -59,14 +59,8 @@ li{display:inline;
     padding:8px
 }
 
-/* Media Queries */
+/* Media Queries **************************************************************************/
 @media screen and (max-width: 992px){
-    button{
-        border: none;
-        cursor: pointer;
-        appearance: none;
-        background-color: inherit;
-    }
 
     .logo{
         width: 49.2px;
@@ -74,7 +68,7 @@ li{display:inline;
     }
 
     body{        
-        background: url("photos/paper.png");
+        background: url("photos/about_wallpaper.png");
         background-repeat: no-repeat;
         background-size: cover;}
 

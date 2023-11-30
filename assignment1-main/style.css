@@ -28,28 +28,22 @@ body{
     margin: 0px;
 }
 
-/* Navigation bar */
+/* Navigation Bar */
 .nav_about{
     font-family: sloopscript;
-    font-size: 7vw;
+    font-size: 4vw;
     }
 
 .nav_shop{
     font-family: sloopscript;
-    font-size: 7vw;
+    font-size: 4vw;
     }
 
 .nav_schedule{
     font-family: sloopscript;
-    font-size: 2vw;
-
+    font-size: 4vw;
     }
 
-.nav_discography{
-    font-family: sloopscript;
-    font-size: 5vw;
-
-    }
 
 ul{text-align: center;
 }
@@ -70,11 +64,10 @@ li{display:inline;
     .logo{
         width: 49.2px;
         height: 33.2px;
-        margin-top:auto;
     }
     
     body{        
-        background: url("photos/home_wallpaper_1.png");
+        background: url("photos/home_wallpaper.png");
         background-repeat: no-repeat;
         background-size: cover;}
 
@@ -106,7 +99,7 @@ li{display:inline;
             position:absolute;
             z-index: 3;
             left: 30%;
-            top: 15%;
+            top: 20%;
         }
     }
 
@@ -172,7 +165,7 @@ li{display:inline;
             z-index: 2;
         }
     }
-    
+        
     /* Homepage 3rd Section - Shop */
     .homepage_shop{
 
@@ -344,3 +337,7 @@ li{display:inline;
     }
 
 }
+
+
+
+
