@@ -1,0 +1,125 @@
+/* Custom Cursor */
+html {
+    cursor: url("photos/cursor\ 1.png"), auto;
+  }
+
+/* Font faces */
+@font-face {
+    font-family: retropix;
+    src: url(fonts/retropix/retropix.ttf);
+    }
+
+@font-face{
+    font-family: sloopscript;
+    src: url(fonts/Sloop\ Script\ Regular.ttf);
+    }
+
+@font-face {
+    font-family: texgyre_italic;
+    src: url(fonts/texgyretermes-italic.otf);
+    }
+
+@font-face{
+    font-family: texgyre_regular;
+    src: url(fonts/texgyretermes-regular.otf);
+    }
+
+body{
+    margin: 0px;
+}
+
+/* Navigation Bar */
+
+.nav_about{
+    font-family: sloopscript;
+    font-size: 2vw;
+    }
+
+.nav_shop{
+    font-family: sloopscript;
+    font-size: 2vw;
+    }
+
+.nav_schedule{
+    font-family: sloopscript;
+    font-size: 2vw;
+
+    }
+
+.nav_discography{
+    font-family: sloopscript;
+    font-size: 2vw;
+
+    }
+
+ul{text-align: center;
+}
+    
+li{display:inline;
+    padding:8px
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px){
+    button{
+        border: none;
+        cursor: pointer;
+        appearance: none;
+        background-color: inherit;
+    }
+
+    .logo{
+        width: 49.2px;
+        height: 33.2px;
+    }
+
+    body{        
+        background: url("photos/paper.png");
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+
+    /* About 1st Section */
+    .aboutnj{
+        .title{
+            text-align: left;
+            font-family: retropix;
+            font-size: 4vw;
+            margin: 20px;
+            
+        }
+
+        .nj{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            flex-direction: row;
+
+            #photo{
+                margin-right:auto;
+                margin-left: auto;
+            }
+
+            .abtnj{
+                margin-left:70px;
+                align-items: center;
+            }
+
+            .desc{
+                font-family: retropix;
+                font-size: 3vw;
+                align-items: center;
+                display:flex;
+                flex-direction: column;
+                flex:1;
+                margin-top: 30px;
+                margin-left: 50px;
+                margin-right: 50px;
+            }   
+
+        }
+    }
+
+   
+}

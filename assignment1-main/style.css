@@ -1,6 +1,133 @@
-ul{text-align: center;
+/* Custom Cursor */
+html {
+    cursor: url("photos/cursor\ 1.png"), auto;
+  }
+
+/* Font faces */
+@font-face {
+    font-family: retropix;
+    src: url(fonts/retropix/retropix.ttf);
+    }
+
+@font-face{
+    font-family: sloopscript;
+    src: url(fonts/Sloop\ Script\ Regular.ttf);
+    }
+
+@font-face {
+    font-family: texgyre_italic;
+    src: url(fonts/texgyretermes-italic.otf);
+    }
+
+@font-face{
+    font-family: texgyre_regular;
+    src: url(fonts/texgyretermes-regular.otf);
+    }
+
+body{
+    margin: 0px;
 }
 
+/* Navigation bar */
+.nav_about{
+    font-family: sloopscript;
+    font-size: 7vw;
+    }
+
+.nav_shop{
+    font-family: sloopscript;
+    font-size: 7vw;
+    }
+
+.nav_schedule{
+    font-family: sloopscript;
+    font-size: 2vw;
+
+    }
+
+.nav_discography{
+    font-family: sloopscript;
+    font-size: 5vw;
+
+    }
+
+ul{text-align: center;
+}
+    
 li{display:inline;
     padding:8px
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px){
+    button{
+        border: none;
+        cursor: pointer;
+        appearance: none;
+        background-color: inherit;
+    }
+
+    .logo{
+        width: 49.2px;
+        height: 33.2px;
+        margin-top:auto;
+    }
+    
+    body{        
+        background: url("photos/home_wallpaper_1.png");
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+    /* Homepage 1st Section */
+    .navandnewjeansintro{
+
+        .newjeansintro{
+            display: flex;  
+        }
+
+        .newjeansgrp{
+            width: 563px;
+            height: 373px;
+            z-index: 1;
+            margin-left: 80px;
+        }
+
+        #description{
+            align-items: center;
+            display:flex;
+            flex-direction: column;
+            flex:1;
+            justify-content: center;
+        }
+    }
+    
+    .bunnysticker{
+        .bunny{
+            position:absolute;
+            z-index: 3;
+            left: 30%;
+            top: 15%;
+        }
+    }
+
+    .new{
+        font-size: 6vw;
+        font-family: retropix;
+        color:whitesmoke;
+        margin: 2px;
+
+    }
+
+    .jeans{
+        font-size: 6vw;
+        font-family: sloopscript;
+        color: whitesmoke;
+        margin: 2px;
+    }
+
+    .meet_newjeans{
+        font-size: 2vw;
+        font-family: texgyre_italic;
+        color: whitesmoke;
+    }
 }
