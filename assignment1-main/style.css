@@ -172,5 +172,175 @@ li{display:inline;
             z-index: 2;
         }
     }
-        
+    
+    /* Homepage 3rd Section - Shop */
+    .homepage_shop{
+
+        .homepage_shop_button{
+            #title{
+                font-family: retropix;
+                font-size: 5vw;
+                color:whitesmoke;
+                text-align: center;
+                margin-top: 70px;
+            }
+
+            #button{
+                border: 2px whitesmoke;
+                border-radius: 5px;
+            }
+
+            .home_shop{
+                border: 2px whitesmoke;
+                border-radius: 5px;
+                font-family: sloopscript;
+                font-size: 6vw;
+                margin-top: 70px;
+                z-index:4;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center; /* Work on this */
+            }
+        }
+
+        .desc{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            .sparkle{
+                position: relative;
+                width: 300px;
+                height: 300px;
+                z-index: 2;
+                left: 120%;
+                bottom: -90;
+            }
+
+            #grppic{
+                z-index: 1;
+                position: relative;
+                left:90%;
+                top: -150;
+                width: 380px;
+                height: 285px;
+            }
+    
+            #gif{
+                position: relative;
+                right: 35%;
+                top: -55%;
+                z-index: 0;
+            }
+        }
+
+    }
+
+    /* Homepage 4th Section - Learn More */
+    .learnmore{
+        .learnmore_button{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+            #img{
+                width: 796px;
+                height: 556px;
+                border-radius: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                display:block;
+            }
+
+            #title{
+                font-family: retropix;
+                font-size: 6vw;
+                color: whitesmoke;
+                text-align: center;
+            }
+
+            #button{
+                position: relative;
+                display:flex;
+                width: 796px;
+                height: 556px;
+                border-radius: 10px;
+                z-index: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #eye{
+                position: relative;
+                z-index: 1;
+                width: 20%;
+                height: 20%;
+                bottom: 620;
+                left: 5%;
+                transform: rotate(331deg);
+            }
+
+            #face{
+                position: relative;
+                z-index: 1;
+                width: 20%;
+                height: 20%;
+                bottom: 350;
+                left: 79%;
+                transform: rotate(18deg);
+            }
+
+        }
+
+        .learnmore_text{
+            font-family:texgyre_italic;
+            font-size: 3vw;
+        }
+    }
+
+
+    /* Font faces */
+    @font-face {
+        font-family: retropix;
+        src: url(fonts/retropix/retropix.ttf);
+    }
+
+    @font-face{
+        font-family: sloopscript;
+        src: url(fonts/Sloop\ Script\ Regular.ttf);
+    }
+
+    @font-face {
+        font-family: texgyre_italic;
+        src: url(fonts/texgyretermes-italic.otf);
+    }
+
+    @font-face{
+        font-family: texgyre_regular;
+        src: url(fonts/texgyretermes-regular.otf);
+    }
+
+    /* Navigation Bar */
+    .nav_about{
+        font-family: sloopscript;
+        font-size: 2vw;
+    }
+
+    .nav_shop{
+        font-family: sloopscript;
+        font-size: 2vw;
+    }
+
+    .nav_schedule{
+        font-family: sloopscript;
+        font-size: 2vw;
+
+    }
+
+    .nav_discography{
+        font-family: sloopscript;
+        font-size: 2vw;
+
+    }
+
 }
