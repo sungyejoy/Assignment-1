@@ -167,4 +167,192 @@ li{display:inline;
             }
         }
     }
+
+    .about_hanni{
+        .hanni{
+            display:flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+            #title{
+                font-family: sloopscript;
+                font-size: 6vw;
+                color: black;
+                text-align: center;
+            }
+
+            #pic{
+                position: relative;
+                display: flex;
+                height: 70%;
+                width: 70%;
+                z-index: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #powerp{
+                z-index: 1;
+                position: relative;
+                height: 40%;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                bottom: 290;
+                right: -300;
+            }
+
+            #desc{
+                font-family: retropix;
+                font-size:3vw;
+                color: black;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                top: -397px;
+                left: -20;
+            }
+        }
+    }
+
+    .about_danielle{
+        .danielle{
+            display:flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+            #title{
+                font-family: sloopscript;
+                font-size: 6vw;
+                color: black;
+                text-align: center;
+            }
+
+            #pic{
+                position: relative;
+                display: flex;
+                height: 70%;
+                width: 70%;
+                z-index: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #powerp{
+                z-index: 1;
+                position: relative;
+                height: 40%;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                bottom: 290;
+                right: 260;
+            }
+
+            #desc{
+                font-family: retropix;
+                font-size:3vw;
+                color: black;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                top: -397px;
+                left: 20;
+            }
+        }
+    }
+
+    .about_haerin{
+        .haerin{
+            display:flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+            #title{
+                font-family: sloopscript;
+                font-size: 6vw;
+                color: black;
+                text-align: center;
+            }
+
+            #pic{
+                position: relative;
+                display: flex;
+                height: 70%;
+                width: 70%;
+                z-index: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #powerp{
+                z-index: 1;
+                position: relative;
+                height: 40%;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                bottom: 290;
+                right: -260;
+            }
+
+            #desc{
+                font-family: retropix;
+                font-size:3vw;
+                color: black;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                top: -397px;
+                left: 20;
+            }
+        }
+    }
+
+    .about_hyein{
+        .hyein{
+            display:flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+            #title{
+                font-family: sloopscript;
+                font-size: 6vw;
+                color: black;
+                text-align: center;
+            }
+
+            #pic{
+                position: relative;
+                display: flex;
+                height: 70%;
+                width: 70%;
+                z-index: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #powerp{
+                z-index: 1;
+                position: relative;
+                height: 40%;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                bottom: 290;
+                right: 260;
+            }
+
+            #desc{
+                font-family: retropix;
+                font-size:3vw;
+                color: black;
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                top: -397px;
+                left: 60;
+            }
+        }
+    }
 }
