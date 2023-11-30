@@ -1,6 +1,6 @@
 /* Custom Cursor */
 html {
-    cursor: url("photos/cursor\ 1.png"), auto;
+    cursor: url("photos/cursor.png");
   }
 
 /* Font faces */
@@ -38,12 +38,6 @@ body{
 .nav_shop{
     font-family: sloopscript;
     font-size: 2vw;
-    }
-
-.nav_schedule{
-    font-family: sloopscript;
-    font-size: 2vw;
-
     }
 
 .nav_discography{
