@@ -130,4 +130,47 @@ li{display:inline;
         font-family: texgyre_italic;
         color: whitesmoke;
     }
+
+    /* Homepage 2nd Section - Music Player */
+    .musicplayer{
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-image: url(photos/paper.png); */
+
+        #description{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+        }
+
+        .listennow{
+            font-family:retropix;
+            font-size: 5vw;
+            margin-bottom: 0px;
+            color: whitesmoke;
+        }
+
+        .musicname{
+            align-items: center;
+            color: whitesmoke;
+            font-family: texgyre_regular;
+            font-size: 3vw;
+            margin: 5px;
+        }
+
+        .audio{
+            margin: 5px;
+        }
+
+        .recordplayergif{
+            width: 360px;
+            height: 362px;
+            border-radius: 10px;
+            z-index: 2;
+        }
+    }
+        
 }
