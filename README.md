@@ -1,19 +1,18 @@
 # FED Assignment 1 - S10255093G - Sung Yeji
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+This project is for my Interactive Development Assignment 1. I have created a website that is showcasing a rising K-pop Girl Group that I am a big fan of, NewJeans. This website is created by utilising HTML, CSS and JavaScript. 
 
-Essentially, this part is your sales pitch.
- 
+The design of the website kept simple with just a home page, a page to introduce the members of the girl group, and lastly a page to purchase the merchandises.
+
 ## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+NewJeans is known for their multiple, yet defined art style. The colour palette of NewJeans is mainly consists of a deep cool blue colour and white. Some art styles I have incoporated from their art style is utlizing Apple emojis. At the last section of the home page, there are two emojis (eye and a face) which are Apple emoji. I also have utlized their artstyle of powerpuff characters in the About page.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+The design of the website is fairly simple as NewJeans is known for their simple and clean vibe, to enhance the mysterious vibe that lets fans wait for new updates. The company of NewJeans tend to not provide the fans with excessive/extra information to keep the fans interested and follow the girlgroup along their journey.
+
+As a fan of NewJeans, I want to perform an action that allows new fans to find out more about the group, and hence I added a page to include introductions of each members. I also want to perform an action that allows fans to purchase their goods and merchandises easily.
+
+As a company member of NewJeans, I want to perform an action that allows fans of NewJeans to purchase the goods of NewJeans to gain profit.
 
 ## Features
 
