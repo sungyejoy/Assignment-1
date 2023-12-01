@@ -2,8 +2,9 @@
     
     <head>
         <title>NewJeans</title>
-        <link rel="stylesheet" href="./style/style.css" type="text/css">
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link rel="stylesheet" href="./style/style.css" type="text/css"> <!-- Connecting to CSS Stylesheet-->
+        <link rel="icon" type="image/x-icon" href="images/logo.png"> <!-- Adding website's favicon -->
+        <script src="script.js"></script> <!-- Connecting to Javascript script-->
     </head>
 
     <body class="home">
@@ -11,7 +12,7 @@
             <nav> <!-- Navigation bar -->
                 <ul>
                     <div class="newjeans_logo_button"></div>
-                    <button type="submit">
+                    <button type="submit"> <!-- Adding a home button with an image -->
                         <a href="index.html">
                             <img class="logo" src="images/logo.png">
                         </a>
@@ -27,42 +28,40 @@
                 <div id="description">
                     <h1 class="New"> NEW </h1>
                     <h1 class="Jeans"> Jeans </h1>
-                    <button type="submit">
-                        <a href="about.html">
-                            <h2 class="meet_newjeans">Meet NewJeans!</h1>
-                        </a>
-                    </button>
+                    <a href="about.html" class="meetnj_button"> <!-- Button to send user to 'About' Page -->
+                        Meet NewJeans
+                    </a>
                 </div>
             </section>
         </div>
 
-        <img class="bunny" src="images/deco_bunny.png">
+        <img class="bunny" src="images/deco_bunny.png"> <!-- Adding a bunny image -->
 
         <section class="musicplayer"> <!-- Music Playing Function-->
             <div id="description">
                 <h1 class="listennow">LISTEN NOW!</h1>
-                <h1 class="musicname">Super Shy</h1>
-                    <audio controls class="audio">
+                <h1 class="musicname">Super Shy</h1> <!-- Song Name -->
+                    <audio controls class="audio"> <!-- Audio Player -->
                         <source src="song/supershy.mp3" type="audio/mpeg">
                     </audio>
             </div>
 
-            <img class="recordplayergif" src="images/home_musicplayer.gif"> 
+            <img class="recordplayergif" src="images/home_musicplayer.gif">  <!-- Adding a music player GIF -->
 
         </section>
 
         <section class="homepage_shop"> <!-- Merchandise Shop Page Direction-->
             <div class="homepage_shop_button">
                 <h1 id="title">MERCHANDISE</h1>
-                <a class="button_shop" href="shop.html">
+                <a class="button_shop" href="shop.html"> <!-- Button to send user to 'Shop' page -->
                     Shop NewJeans
                 </a>
             </div>
 
-            <div class="desc">
+            <div class="desc"> <!-- Adding a decorative image -->
                 <img class="sparkle" src="images/deco_sparkle.png">
                 <img id="grppic" src="images/home_camphoto.png">
-                <div class="binkybong">
+                <div class="binkybong"> <!-- GIF of 3D Modelling of NewJeans Lightstick-->
                     <img id="gif" src="images/id-binkybong.gif">
                 </div>
             </div>
@@ -78,6 +77,11 @@
                     </div>
             </div>
         </section>
-        </body>
+
+        <!-- Adding a scroll to top function button -->
+        <div onclick="scrollToTop()"class=" scrolltop">
+        Scroll to top
+        </div>
+
     </body>
 </html>
