@@ -10,6 +10,8 @@ NewJeans is known for their multiple, yet defined art style. The colour palette 
 
 The design of the website is fairly simple as NewJeans is known for their simple and clean vibe, to enhance the mysterious vibe that lets fans wait for new updates. The company of NewJeans tend to not provide the fans with excessive/extra information to keep the fans interested and follow the girlgroup along their journey.
 
+In the website I have created, there are a few overlapping images where I intentionally left them overlapped, to create a "sticker" effect. I made use of similar fonts that NewJeans use, like the excessively curled texts, and pixel texts.
+
 As a fan of NewJeans, I want to perform an action that allows new fans to find out more about the group, and hence I added a page to include introductions of each members. I also want to perform an action that allows fans to purchase their goods and merchandises easily.
 
 As a company member of NewJeans, I want to perform an action that allows fans of NewJeans to purchase the goods of NewJeans to gain profit.
