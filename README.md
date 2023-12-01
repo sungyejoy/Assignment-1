@@ -14,52 +14,45 @@ As a fan of NewJeans, I want to perform an action that allows new fans to find o
 
 As a company member of NewJeans, I want to perform an action that allows fans of NewJeans to purchase the goods of NewJeans to gain profit.
 
-## Features
+## Features 
+### 1. Navigation Bar
+- NewJeans Logo button - Acts as a homepage and also adds the design identity of NewJeans
+### 2. Homepage
+- 'Meet NewJeans' button - Directs users to the 'About' page when clicked upon
+- Music player - Allows users to play the audio player and listen to the newest releases of NewJean's songs
+- 'Shop NewJeans' button - Directs users to the 'Shop' page when clicked upon
+- 3D model of Binky Bong (NewJeans lightstick) - Enhances the look of the page
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+### 3. About 
+- Instagram button - Directs users to NewJean's instagram page
+- Profile of each members - Introduces each members to users
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### 4. Shop
+- Rows of Merchandises - Allows users to look at the gallery of merchandises and consider purchasing them
+
+### 5. Others
+- NewJeans cursor - Custom cursor to enhance the unique design style of NewJeans
 
 ### Features Left to Implement
-- Another feature idea
+- Discography - To let users/fans view all the music NewJeans released, and to overview them
+- Schedule - To let fans view NewJean's future schedules like concerts, comebacks, merchandise drop, Etc.
 
 ## Technologies Used
+- [HTML](https://html.com)
+    - The project uses **HTML** to lay out the website's contents like navigation, texts and image layouts
+- [CSS](https://css.com)
+    - The project uses **CSS** to design and beautify the HTML elements
+- [Javascript](https://javascript.com)
+    - The project uses **Javascript** to add interactive elements in the website
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+## Content
+- [NewJeans Profile Description](https://www.hallyuidol.com/group/2hsjjlyMVCcgZ88Q2egX)
+    - All profile descriptions of each members were from Hallyuidol
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
-## Testing
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Credits
-
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
-### Media
-- The photos used in this site were obtained from ...
-
-### Acknowledgements
-
-- I received inspiration for this project from X
-
+## Media
+- [NewJeans Merchandise Images](https://weverseshop.io/en/shop/GL_USD/artists/82/categories/1134)
+    - All images of NewJeans merchandise are from Weverse
+- [Songs](https://www.youtube.com/@NewJeans_official)
+    - All songs are from this NewJeans Official Youtube Channel
+- [Images](https://www.pinterest.com/)
+    - All other images are from Pinterest
