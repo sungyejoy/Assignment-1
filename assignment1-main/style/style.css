@@ -1,0 +1,686 @@
+/* Custom Cursor */
+html {
+    cursor: url("../images/cursor.png"), auto;
+  }
+
+/* Font faces */
+@font-face {
+    font-family: retropix;
+    src: url(../fonts/retropix/retropix.ttf);
+    }
+
+@font-face{
+    font-family: sloopscript;
+    src: url(../fonts/sloopscriptregular.ttf);
+    }
+
+@font-face {
+    font-family: texgyre_italic;
+    src: url(../fonts/texgyretermes-italic.otf);
+    }
+
+@font-face{
+    font-family: texgyre_regular;
+    src: url(../fonts/texgyretermes-regular.otf);
+    }
+
+/* Navigation Bar */
+.nav_about{
+    font-family: sloopscript;
+    font-size: 4vw;
+    }
+
+.nav_shop{
+    font-family: sloopscript;
+    font-size: 4vw;
+    }
+
+ul{text-align: center;
+}
+    
+li{display:inline;
+    padding:8px
+}
+
+/* Media Queries */
+/* @media screen and (min-width: 992px){ */
+button{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.logo{
+    width: 49.2px;
+    height: 33.2px;
+}
+
+.home{        
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    background: url("../images/home_wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Homepage 1st Section */
+.navandnewjeansintro{
+    .newjeansintro{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .newjeansgrp{
+            width: 35vw;
+            height: 25vw;
+            z-index: 1;
+        }
+    
+        #description{
+            width: 305px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
+.bunny{
+    position:absolute;
+    z-index: 3;
+    left: 36.5vw;
+    top: 20vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+.new{
+    font-size: 6vw;
+    font-family: retropix;
+    color:whitesmoke;
+    margin: 2px;
+
+}
+
+.jeans{
+    font-size: 6vw;
+    font-family: sloopscript;
+    color: whitesmoke;
+    margin: 2px;
+}
+
+.meet_newjeans{
+    font-size: 2vw;
+    font-family: texgyre_italic;
+    color: whitesmoke;
+}
+
+/* Homepage 2nd Section - Music Player */
+.musicplayer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    #description{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+
+    .listennow{
+        font-family:retropix;
+        font-size: 5vw;
+        margin-bottom: 0px;
+        color: whitesmoke;
+    }
+
+    .musicname{
+        align-items: center;
+        color: whitesmoke;
+        font-family: texgyre_regular;
+        font-size: 3vw;
+        margin: 5px;
+    }
+
+    .audio{
+        margin: 5px;
+    }
+
+    .recordplayergif{
+        width: 25vw;
+        height: 25vw;
+        border-radius: 10px;
+        z-index: 2;
+    }
+}
+    
+/* Homepage 3rd Section - Shop */
+.homepage_shop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .homepage_shop_button{
+        #title{
+            font-family: retropix;
+            font-size: 5vw;
+            color:whitesmoke;
+            text-align: center;
+            margin-top: 70px;
+            margin-bottom: 0px;
+        }
+        
+        .button_shop{
+            border: 2px solid whitesmoke;
+            border-radius: 14px;
+            background-color: whitesmoke;
+            font-family: sloopscript;
+            font-size: 4vw;
+            margin-top: 21px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 15px 10px 10px 10px;
+            justify-content: center;
+            text-decoration: none;
+        }
+    }
+
+    .desc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .sparkle{
+            position: relative;
+            width: 17vw;
+            height: 17vw;
+            z-index: 2;
+            right: -23vw;
+            top: 14vw;
+        }
+
+        #grppic{
+            position: absolute;
+            width: 38vw;
+            height: 29.299999999999997vw;
+            z-index: 1;
+            right: 47vw;
+            top: 85vw;
+        }
+
+        #gif{
+            position: relative;
+            right: -14vw;
+            top: 5vw;
+            z-index: 0;
+            width: 39vw;
+            height: 30vw;
+        }
+    }
+
+}
+
+/* Homepage 4th Section - Learn More */
+.learnmore{
+    #learnmore{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: -150;
+
+        #img{
+            width: 796px;
+            height: 556px;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            display:block;
+        }
+
+        #title{
+            font-family: retropix;
+            font-size: 4vw;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        .schedule{
+            #schedule{
+                position: relative;
+                display:flex;
+                width: 796px;
+                height: 556px;
+                border-radius: 10px;
+                z-index: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #eye{
+                position: relative;
+                z-index: 1;
+                width: 10%;
+                height: 10%;
+                bottom: 38vw;
+                left: 19vw;
+                transform: rotate(340deg);
+            }
+            }
+    
+            #face{
+                position: relative;
+                z-index: 1;
+                width: 10%;
+                height: 10%;
+                bottom: 5vw;
+                left: 58vw;
+                transform: rotate(18deg);
+            }
+
+        }
+
+    }
+
+    .learnmore_text{
+        font-family:texgyre_italic;
+        font-size: 3vw;
+    }
+
+/* About 1st Section */
+.about{        
+    background: url("../images/home_wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.aboutnj{
+    .nj{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .abtnj{
+            margin-left:70px;
+            align-items: center;
+
+            .title{
+                text-align: center;
+                font-family: retropix;
+                font-size: 4vw;
+                margin: 20px;
+                
+            }
+
+            .ig{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .desc{
+            font-family: retropix;
+            font-size: 2vw;
+            align-items: center;
+            /* display:flex;
+            flex-direction: column;
+            flex:1; */
+            text-align: center;
+            
+        }   
+
+        #photo{
+            margin-right:auto;
+            margin-left: auto;
+            height: 40%;
+            width: 40%;
+        }
+
+    }
+}
+
+.about_minji{
+    .minji{
+        display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        #title{
+            font-family: sloopscript;
+            font-size: 6vw;
+            color: black;
+            text-align: center;
+            margin-bottom: 1vw;
+        }
+
+        #pic{
+            position: relative;
+            display: flex;
+            height: 40%;
+            width: 40%;
+            z-index: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #powerp{
+            z-index: 1;
+            position: relative;
+            height: 25%;
+            width: 25%; 
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 9vw;
+            right: 17vw;
+        }
+
+        #desc{
+            font-family: 'retropix';
+            font-size: 2vw;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: -25vw;
+            left: 60;
+        }
+    }
+}
+
+.about_hanni{
+    .hanni{
+        display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        #title{
+            font-family: sloopscript;
+            font-size: 6vw;
+            color: black;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        #pic{
+            position: relative;
+            display: flex;
+            height: 30%;
+            width: 30%;
+            z-index: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #powerp{
+            z-index: 1;
+            position: relative;
+            height: 25%;
+            width: 25%; 
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 16vw;
+            right: -17vw;
+        }
+
+        #desc{
+            font-family: retropix;
+            font-size:2vw;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: -25vw;
+            left: -20;
+        }
+        
+    }
+}
+
+.about_danielle{
+    .danielle{
+        display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        #title{
+            font-family: sloopscript;
+            font-size: 6vw;
+            color: black;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        #pic{
+            position: relative;
+            display: flex;
+            height: 40%;
+            width: 40%;
+            z-index: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #powerp{
+            z-index: 1;
+            position: relative;
+            height: 25%;
+            width: 25%; 
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 16vw;
+            right: 17vw;
+        }
+
+        #desc{
+            font-family: retropix;
+            font-size:2vw;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: -25vw;
+            left: 20;
+        }
+    }
+}
+
+.about_haerin{
+    .haerin{
+        display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        #title{
+            font-family: sloopscript;
+            font-size: 6vw;
+            color: black;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        #pic{
+            position: relative;
+            display: flex;
+            height: 30%;
+            width: 30%;
+            z-index: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #powerp{
+            z-index: 1;
+            position: relative;
+            height: 25%;
+            width: 25%; 
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 16vw;
+            right: -17vw;
+        }
+
+        #desc{
+            font-family: retropix;
+            font-size:2vw;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: -25vw;
+            left: 20;
+        }
+    }
+}
+
+.about_hyein{
+    .hyein{
+        display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+        #title{
+            font-family: sloopscript;
+            font-size: 6vw;
+            color: black;
+            text-align: center;
+            margin-bottom: 1vw;
+        }
+
+        #pic{
+            position: relative;
+            display: flex;
+            height: 40%;
+            width: 40%;
+            z-index: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #powerp{
+            z-index: 1;
+            position: relative;
+            height: 25%;
+            width: 25%; 
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 16vw;
+            right: 17vw;
+        }
+
+        #desc{
+            font-family: retropix;
+            font-size:2vw;
+            color: black;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: -25vw;
+            left: 60;
+        }
+    }
+}
+
+
+/* Shop Introduction Section*/
+.shop_page{        
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+
+.header{
+    .head{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+
+        #nj{
+            height:100%;
+            width: 100%;
+            z-index: 0;
+        }
+
+        .title{
+            font-family: retropix;
+            font-size: 5vw;
+            color:whitesmoke;
+            text-align: center;
+            z-index: 1;
+        }
+    }
+
+}
+
+.shop {
+    font-family: retropix;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.shop_container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    flex-direction: row;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 21%;    
+}
+
+.shop img {
+    max-width: 100%;
+    flex-grow: 1;  
+    width: 25vw;
+    height: 25vw;
+    opacity:1;
+    transition: 1s ease;
+}
+
+.shop img :hover{
+        opacity: 0.6;
+        background-color: #242323;
+        transition: .5s ease;
+      }
+
+/* img:hover{
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    box-shadow: 10px 10px 5px #888888;
+} */
+
+/* img.img{
+    opacity:1;
+    transition: 1s ease;
+    }
+    
+    .fadein img:hover{
+    opacity:0.5;
+    transition: 1s ease;
+    } */
+
+#shop_desc {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
