@@ -32,6 +32,7 @@ As a company member of NewJeans, I want to perform an action that allows fans of
 
 ### 4. Shop
 - Rows of Merchandises - Allows users to look at the gallery of merchandises and consider purchasing them
+- Hover function - When users are hovering over the images of the merchandises, the merchandise box will have an overlay of light pink, to allow users to clearly see what they are clicking on
 
 ### 5. Others
 - NewJeans cursor - Custom cursor to enhance the unique design style of NewJeans
