@@ -38,11 +38,11 @@ As a company member of NewJeans, I want to perform an action that allows fans of
 - Schedule - To let fans view NewJean's future schedules like concerts, comebacks, merchandise drop, Etc.
 
 ## Technologies Used
-- [HTML](https://html.com)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
     - The project uses **HTML** to lay out the website's contents like navigation, texts and image layouts
-- [CSS](https://css.com)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
     - The project uses **CSS** to design and beautify the HTML elements
-- [Javascript](https://javascript.com)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
     - The project uses **Javascript** to add interactive elements in the website
 
 ## Content
