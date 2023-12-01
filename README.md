@@ -17,6 +17,7 @@ As a company member of NewJeans, I want to perform an action that allows fans of
 ## Features 
 ### 1. Navigation Bar
 - NewJeans Logo button - Acts as a homepage and also adds the design identity of NewJeans
+
 ### 2. Homepage
 - 'Meet NewJeans' button - Directs users to the 'About' page when clicked upon
 - Music player - Allows users to play the audio player and listen to the newest releases of NewJean's songs
@@ -32,6 +33,7 @@ As a company member of NewJeans, I want to perform an action that allows fans of
 
 ### 5. Others
 - NewJeans cursor - Custom cursor to enhance the unique design style of NewJeans
+- Scroll to top - Scroll to top function as some pages are quite long, which enhances the convienience the users can face while using the website
 
 ### Features Left to Implement
 - Discography - To let users/fans view all the music NewJeans released, and to overview them
